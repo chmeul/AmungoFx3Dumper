@@ -5,6 +5,9 @@
 #include "pointdrawer.h"
 #include "host_commands.h"
 
+const uint32_t FX3Dev::ADD_FW_LOAD_PAUSE_MS;
+const uint32_t FX3Dev::DEV_DOWNLOAD_TIMEOUT_MS;
+
 FX3Dev::FX3Dev( size_t one_block_size8, uint32_t dev_buffers_count ) :
     ctx( NULL ),
     device_handle( NULL ),
